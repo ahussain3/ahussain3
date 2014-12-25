@@ -22,11 +22,15 @@
             border: thin transparent solid; /* option 1 */
         }
 
+        html, body {
+            height: 100%
+        }
+
         .test {
             border: 2px solid blue;
         }
 
-        #body-wrapper {
+        #wrapper {
             background: #EEF0F3;
         }
 
@@ -38,13 +42,14 @@
         }
 
         #footer-wrapper {
-            height: 100px;
+            width:100%;
+            height: 50px;
             background: #4e9cb5;
             margin: 0;
             border: 1px solid #4e9cb5;
         }
 
-        #header {
+        #header-inner-wrapper {
             height: 100%;
             margin: 0 auto;
         }
@@ -76,13 +81,41 @@
         margin-top: 200px;
         }
 
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #wrapper {
+            width:100%;
+            min-height: 100%;
+            height: auto !important;
+            height: 100%;
+            margin: 0px 0px -50px 0px;
+        }
+
+        #content-wrapper {
+            width: 100%;
+            padding: 0px 0px 50px 0px;
+        }
+
+        #content-inner-wrapper {
+            margin: 0px auto;
+        }
+
+        #footer-inner-wrapper {
+            margin: 0px auto;
+        }
+
+
+
     </style>
 
 </head>
 <body>
-    <div id='body-wrapper'>
+    <div id='wrapper'>
         <div id='header-wrapper'>
-            <header class='test' id='header'>
+            <header class='test' id='header-inner-wrapper'>
                 <div class='row test' id='title-wrapper'>
                     <div class='col_1 first test'></div>
                     <div class='col_11 last test' id='title'>AWAIS HUSSAIN.</div>
@@ -98,20 +131,18 @@
             </header>
         </div>
 
-        <main>
+        <div id="content-wrapper">
+            <main id="content-inner-wrapper">
 
-
-
-
-        </main>
-
-
-
-        <div id='footer-wrapper'>
-            <footer>
-
-            </footer>
+            </main>
         </div>
+
+    </div>
+
+    <div id='footer-wrapper'>
+        <footer class='test' id='footer-inner-wrapper'>
+            <div>footer</div>
+        </footer>
     </div>
 </body>
 </html>
