@@ -27,6 +27,7 @@ margin: auto;
 .col_9, /* 3/4 width */
 .col_8,
 .col_7, /* 2/3 width */
+.col_7_text,
 .col_6,
 .col_5, /* half width */
 .col_4, /* 1/3 width */
@@ -55,6 +56,7 @@ margin-right:0;
 .col_10 {width:780px;}
 .col_9 {width:700px;}
 .col_8 {width:620px;}
+.col_7_text {width:540px;}
 .col_7 {width:540px;}
 .col_6 {width:460px;}
 .col_5 {width:380px;}
@@ -86,6 +88,7 @@ body {min-width:767px;}
 .col_9 {width:556px;}
 .col_8 {width:492px;}
 .col_7 {width:428px;}
+.col_7_text {width:556px;}
 .col_6 {width:364px;}
 .col_5 {width:300px;}
 .col_4 {width:236px;}
@@ -110,6 +113,7 @@ body {min-width:479px;}
 .col_9 {width:225px;}
 .col_8 {width:225px;}
 .col_7 {width:225px;}
+.col_7_text {width:460px;}
 .col_6 {width:225px;}
 .col_5 {width:225px;}
 .col_4 {width:225px; margin-left:0px;}
@@ -141,6 +145,7 @@ body, #header-inner-wrapper, #content-inner-wrapper, #footer-inner-wrapper{min-w
 .col_8 {width:300px;}
 .col_8 {width:300px;}
 .col_7 {width:300px;}
+.col_7_text {width:300px;}
 .col_6 {width:300px;}
 .col_5 {width:300px;}
 .col_4 {width:300px; margin-left:0px;}
