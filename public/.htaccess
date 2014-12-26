@@ -1,5 +1,6 @@
 RewriteEngine On
 
+RewriteRule ^$ /writing/index.php
 RewriteRule ^art/$ /art.php#menu [NE]
 RewriteRule ^writing/$ /writing/index.php#menu [NE]
 RewriteRule ^poetry/$ /poetry/index.php#menu [NE]

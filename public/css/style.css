@@ -102,8 +102,9 @@ clear:both;
     clear:both;
     color: #EEF0F3;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.2em;
-    padding: 20px 10px 10px 10px;
+    font-size: 1.0em;
+    padding: 30px 10px 10px 10px;
+    line-height: 140%;
 }
 
 /*Content*/
@@ -112,6 +113,18 @@ h1 {
     font-size: 3.5em;
     font-weight: 600;
     color: #4e9cb5;
+}
+
+h3 {
+    color: #E46A45;
+    font-family: 'Lora', serif;
+    font-size: 1.5em;
+}
+
+h5 {
+    color: gray;
+    font-family: 'Lora', serif;
+    font-size: 1.1em;   
 }
 
 #content-heading {
@@ -136,17 +149,11 @@ h1 {
     clear: both;
 }
 
-.post-title h3 {
-    color: #E46A45;
-    font-family: 'Lora', serif;
-    font-size: 1.5em;
+.post-title {
 }
 
-.post-date h5 {
+.post-date {
     margin-top: 5px;
-    color: gray;
-    font-family: 'Lora', serif;
-    font-size: 1.1em;   
 }
 
 .post-text p {
@@ -158,6 +165,17 @@ h1 {
     line-height: 130%;
     letter-spacing: 0.02em;
 }
+
+.res-text p {
+    margin-top: 10px;
+    color: #574D4D;
+    font-family: 'Lora', serif;
+    font-size: 0.9em;
+    font-weight: 200;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+}
+
 
 #post-title h3 {
     color: #E46A45;

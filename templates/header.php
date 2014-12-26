@@ -46,10 +46,10 @@
                     <li id='logo'><a href=''>AH.</a></li>
                     <li><a href='/art/'>art/design.</a></li>
                     <li><a href='/poetry/'>poetry.</a></li>
-                    <li><a href=''>quant'd self.</a></li>
-                    <li><a href=''>resume.</a></li>
+                    <li><a href='/qself/'>quant'd self.</a></li>
+                    <li><a href='/resume/'>resume.</a></li>
                     <li><a href='/writing/'>writing.</a></li>
-                    <li><a href=''>contact.</a></li>
+                    <!-- <li><a href=''>contact.</a></li> -->
                 </ul>
             </nav>
         </div>
